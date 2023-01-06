@@ -7,5 +7,4 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[:-n]
-print(main('azim', 1))
+    return s[-n:]
